@@ -1,5 +1,5 @@
 import axios, { AxiosError } from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Movie } from "../../../models/movie";
 import StarRating from "../../movieReview/StarRating";
 import Loader from "../../globalComponents/Loader";

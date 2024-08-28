@@ -1,4 +1,4 @@
-import Search from "./Search";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Logo from "./Logo";
 
 interface Props {
