@@ -13,7 +13,6 @@ import { useMovie } from "./hooks/useMovie";
 import { useLocalStoreState } from "./hooks/useLocalStoreState";
 import { Movie } from "./models/movie";
 
-
 export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>("");
   const [query, setQuery] = useState<string>("");
