@@ -20,7 +20,7 @@ export function useMovie({ query }: Props) {
       setError("");
       try {
         const response = await axios.get<ApiResponse>(
-          `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&s=${query}`,
+          `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&s=${query}`,
           { signal: controller.signal }
         );
 

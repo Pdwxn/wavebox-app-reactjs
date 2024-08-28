@@ -28,7 +28,7 @@ function MovieDetails({
       setError("");
       try {
         const response = await axios.get<Movie>(
-          `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&i=${selectedId}`
+          `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&i=${selectedId}`
         );
 
         setMovie(response.data);
